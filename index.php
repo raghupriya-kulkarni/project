@@ -26,9 +26,14 @@ if(!empty($_POST))
 }
 ?>
 <!doctype html>
-<html><!-- Designed & Developed by Ashish Labade (Tech Vegan) www.ashishvegan.com | Not for Commercial Use-->
+<html>
 <head>
 <meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 <title>Student Feedback System</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -68,7 +73,7 @@ if(!empty($_POST))
 </div>
 		
         <div class="tdd">
-        	<input type="submit" value="Login" />
+        	<input class="btn btn-primary" type="submit" value="Submit">
         </div>
     
     <br>
@@ -77,7 +82,7 @@ if(!empty($_POST))
 <br>
 
 <center>
-<span class="SubHead" style="font-weight:100;">Student Feedback <a href="feedback.php" class="link">Click Here</a></span>
+<span class="SubHead" style="font-weight:100; color: black; font-weight: bolder;">Student Feedback <a href="feedback.php" class="link">Click Here</a></span>
 
 </center>
 </body>
